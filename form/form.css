@@ -1,0 +1,73 @@
+body{
+    background-color:white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-column: 1fr 3fr 0.5fr 1fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "header header header header"
+    "main main main sidebar"
+    "main main main sidebar"
+    "main main main sidebar "
+    "footer footer footer footer"
+    ;
+}
+
+.header1{
+    grid-area: header;
+    background-color: lightgrey;
+    
+}
+
+.main1{
+    grid-area: main;
+    background-color:lightgrey
+}
+.sidebar1{
+    grid-area: sidebar;
+    background-color: lightgrey;
+}
+.footer1{
+    grid-area: footer;
+    background-color: lightgrey;
+}
+h1{
+    text-align: center;
+}
+label{
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin: 15px;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+.box1{
+    width: 50%;
+    float: left;
+}
+.box2{
+    width: 50%;
+    float: left;
+}
+#visa{
+    color: blue;
+    font-size: 30px;
+}
+#master{
+    color:white;
+    background-color: red;
+    font-size: 30px;
+}
+#paypal{
+    color: violet;
+    background-color: wheat;
+    font-size: 30px;
+}
