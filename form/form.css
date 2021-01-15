@@ -26,27 +26,34 @@ body{
 }
 
 .main1{
+    height: 100vh;
     grid-area: main;
     background-color:lightgrey
+    
 }
 .sidebar1{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     grid-area: sidebar;
     background-color: lightgrey;
     font-size: 25px;
+
 }
 a{
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
+a:hover{
+    text-decoration: underline black ;
+}
 
-.footer1{
+/* .footer1{
     grid-area: footer;
     background-color: lightgrey;
-}
+} */
 h1{
     text-align: left;
 }
@@ -99,7 +106,7 @@ input{
     height: 10px;
     width: 50%;
     color: rgb(9, 10, 9);
-    margin-top: 650px;
+    margin-top: 600px;
     font-size: 25px;
     font-weight: 600;
     
@@ -126,4 +133,8 @@ button{
 button:hover{
     color: black;
     background-color: white;
+}
+#input2{
+    width: 40px;
+    margin-top: 70x;
 }
