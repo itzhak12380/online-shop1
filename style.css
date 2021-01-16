@@ -87,8 +87,9 @@
      flex-grow: 4;
      display: flex;
  }
- nav .A12:hover{
+ nav .A12:hover {
      border-bottom: 2px white solid ;
+
  }
 
 
@@ -127,3 +128,4 @@
      color: blue;
      display: flex;
  }
+ 
