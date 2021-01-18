@@ -39,24 +39,24 @@ body{
     
     flex-grow: 1;
 }
-.A13{
-    /* flex-basis: 80%; */
+/* .A13{
+    /* flex-basis: 80%; 
     color: #ffffff;
     text-decoration: none;
     margin: 15px;
-    /* margin-top: 1px; */
+    /* margin-top: 1px; 
     
     flex-grow: 1;
-}
-.A14{
-    /* flex-basis: 80%; */
+} */
+/* .A14{
+    /* flex-basis: 80%; 
     color: #ffffff;
     text-decoration: none;
     margin: 15px;
-    /* margin-top: 1px; */
+    /* margin-top: 1px; 
     
     flex-grow: 1;
-}
+} */
 button{
     /* flex-basis: 20%; */
     height: 40px;
